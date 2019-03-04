@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:id="@+id/login_or_registerLinearLayout"
+	android:background="#ffffff">
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_marginTop="4px">
+		
+		<!--<ImageView
+			android:id="@+id/login_or_registerImageView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/logo"
+			/>-->
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:id="@+id/login_or_registerLayout2"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:orientation="vertical">
+	
+	<Button
+		android:id="@+id/login_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="logar"
+		android:textColor="#FFFFFF"
+		android:background="#2F789E"/>
+	
+	<Button
+		android:id="@+id/cadastrar_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="cadastrar"
+		android:textColor="#FFFFFF"
+		android:background="#2F789E"/>
+	</LinearLayout>
+    
+</LinearLayout>
